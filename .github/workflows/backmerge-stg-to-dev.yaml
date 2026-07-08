@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - stage
+  workflow_run:
+    workflows: ["Backmerge Main to Stage"]
+    types:
+      - completed
 
 permissions:
   contents: write

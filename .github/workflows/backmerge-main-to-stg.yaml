@@ -95,7 +95,8 @@ jobs:
           gh pr merge \
             ${{ steps.pr.outputs.number }} \
             --merge \
-            --auto
+            --auto \
+            --delete-branch
 
       - name: Notify conflicts
         if: steps.mergeable.outputs.status == 'CONFLICTING'

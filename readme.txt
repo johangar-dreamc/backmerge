@@ -10,4 +10,5 @@ hola ceres
 hola neptuno
 hola luna
 hola venus
-hola sol
+hola sun
+hola proxima centauri

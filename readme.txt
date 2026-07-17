@@ -8,3 +8,4 @@ hola ceres
 hola neptuno
 hola luna
 hola venus
+hola sol

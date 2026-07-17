@@ -1,0 +1,19 @@
+name: Dummy Deploy on Tag
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  dummy-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Dummy Deploy Step
+        run: |
+          echo "This is a dummy deploy workflow."
+          echo "Triggered by tag: ${{ github.ref_name }}"
+          echo "Deployment successful! (dummy)"

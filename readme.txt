@@ -5,4 +5,6 @@ hola jupiter
 hola saturno
 hola urano
 hola ceres
+hola neptuno
+hola luna
 hola mercurio
